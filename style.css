@@ -12,8 +12,21 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(26, 26, 26);
+    color: white;
 }
 #btnsCard {
     display: flex;
     flex-direction: column;
+    width: 300px;
+}
+.containedTxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 10px 25px;
+}
+.imgSize {
+    height: 160px;
+    margin-right: 25px;
 }
